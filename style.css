@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial , sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header */
+header {
+  background-color: coral;
+  color: #fff;
+  font-size: 2.0em;
+  font-weight: 600;
+}
+
+/* navbar */
+nav {
+  background-color: yellowgreen;
+  padding: 1em 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* showcase */
+.showcase {
+  height: 30vh;
+}
+
+.showcase img {
+  height: 100%;
+  width: 100%;
+}
+
+/* content */
+.content {
+  text-align: center;
+}
+
+.content p {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+/* form */
+
+.container form {
+  margin-top: 2em;
+}
+
+form .form-input {
+  display: block;
+  margin: 0.5em 0;
+  width: 50%;
+  padding: 0.5em;
+  border-radius: 0.3em;
+}
+
+.btn {
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+}
+
+.btn-submit {
+  background-color: yellowgreen;
+  color: #fff;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
